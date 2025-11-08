@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica - JS Básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Calculadora Científica Básica</h1>
+
+    <section class="calc-section">
+        <h2>1️Suma de tres valores constantes</h2>
+        <button onclick="sumarConstantes()">Calcular Suma</button>
+        <p id="resultadoSuma"></p>
+    </section>
+
+    <section class="calc-section">
+        <h2>2️ Cuadrado de un número</h2>
+        <input type="number" id="numeroCuadrado" placeholder="Ingrese un número">
+        <button onclick="calcularCuadrado()">Calcular Cuadrado</button>
+        <p id="resultadoCuadrado"></p>
+    </section>
+
+    <section class="calc-section">
+        <h2>3️ Promedio de Calificaciones</h2>
+        <input type="text" id="nombreEstudiante" placeholder="Nombre del estudiante">
+        <input type="number" id="nota1" placeholder="Nota 1">
+        <input type="number" id="nota2" placeholder="Nota 2">
+        <input type="number" id="nota3" placeholder="Nota 3">
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="resultadoPromedio"></p>
+    </section>
+
+    <section class="calc-section">
+        <h2>4️ Conversión de Unidades (Metros)</h2>
+        <input type="number" id="metros" placeholder="Ingrese metros">
+        <button onclick="convertirMetros()">Convertir</button>
+        <p id="resultadoConversion"></p>
+    </section>
+
+    <section class="calc-section">
+        <h2>5️ Comparación de dos valores</h2>
+        <input type="number" id="valor1" placeholder="Primer número">
+        <input type="number" id="valor2" placeholder="Segundo número">
+        <button onclick="compararValores()">Comparar</button>
+        <p id="resultadoComparacion"></p>
+    </section>
+
+    <footer>
+        <p>Desarrollado por: <strong>Yazer Mendoza</strong> | Programación Web III (2229)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
