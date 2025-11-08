@@ -1,18 +1,18 @@
-// 1️⃣ Suma de tres valores constantes
+// 1️ Suma de tres valores constantes
 function sumarConstantes() {
     const a = 10, b = 20, c = 14;
     const suma = a + b + c;
     document.getElementById("resultadoSuma").textContent = `La suma de los valores constantes es: ${suma}`;
 }
 
-// 2️⃣ Cuadrado de un número
+// 2️ Cuadrado de un número
 function calcularCuadrado() {
     const numero = parseFloat(document.getElementById("numeroCuadrado").value);
     const cuadrado = numero ** 2;
     document.getElementById("resultadoCuadrado").textContent = `El cuadrado de ${numero} es: ${cuadrado}`;
 }
 
-// 3️⃣ Promedio de calificaciones
+// 3️ Promedio de calificaciones
 function calcularPromedio() {
     const nombre = document.getElementById("nombreEstudiante").value;
     const n1 = parseFloat(document.getElementById("nota1").value);
@@ -22,7 +22,7 @@ function calcularPromedio() {
     document.getElementById("resultadoPromedio").textContent = `El promedio de ${nombre} es: ${promedio} puntos.`;
 }
 
-// 4️⃣ Conversión de metros
+// 4️ Conversión de metros
 function convertirMetros() {
     const metros = parseFloat(document.getElementById("metros").value);
     const centimetros = metros * 100;
@@ -30,7 +30,7 @@ function convertirMetros() {
     document.getElementById("resultadoConversion").textContent = `${metros} metros equivalen a ${centimetros} centímetros y ${kilometros} kilómetros.`;
 }
 
-// 5️⃣ Comparación de dos valores
+// 5️ Comparación de dos valores
 function compararValores() {
     const v1 = parseFloat(document.getElementById("valor1").value);
     const v2 = parseFloat(document.getElementById("valor2").value);
